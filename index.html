@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>News Website</title>
+    <style>
+      /* CSS styles for the landing page */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #444;
+        color: white;
+        overflow: hidden;
+      }
+
+      nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        background-color: #555;
+      }
+
+      section {
+        width: 100%;
+        max-width: none; /* remove max-width */
+        margin: 0 auto;
+        padding: 0; /* remove padding */
+        box-sizing: border-box;
+        position: relative; /* add position relative */
+      }
+
+      article {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+        position: relative; /* add position relative */
+        z-index: 1; /* add z-index */
+        background-color: rgba(255, 255, 255, 0.7); /* add background color */
+        padding: 20px; /* add padding */
+        margin: 0 auto; /* center the content */
+        max-width: 800px; /* set max-width */
+      }
+
+      article:last-child {
+        border-bottom: none;
+      }
+
+      h1 {
+        font-size: 28px;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        margin: 0;
+      }
+
+      img {
+        width: 100%;
+        height: 100vh; /* set height to full screen */
+        object-fit: cover; /* resize the image to fill the height and width */
+        position: absolute; /* add position absolute */
+        top: 0; /* position at the top */
+        left: 0; /* position at the left */
+        z-index: 0; /* set z-index behind the content */
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Cyblack News Website</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Nature</a>
+      <a href="#">Cybersecurity</a>
+      <a href="#">Technology</a>
+      <a href="#">Science</a>
+    </nav>
+    <section>
+      <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*b4_Rxzg7uAduZriP-QX7Ig.jpeg" alt="Nature">
+      <article>
+        <h1>CYBLACK ETHICAL HACKING EXERCISE</h1>
+        <p>Welcome, I heard you are an aspiring penetration tester. Can you root me?</p>
+      </article>
+    </section>
+    <footer>
+     <p>&copy; Ueb3rM4de</p>
+    </footer>
+  </body>
+</html>
